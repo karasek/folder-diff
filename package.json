@@ -1,0 +1,34 @@
+{
+  "name": "folder-diff",
+  "version": "0.0.2",
+  "description": "Create patch file for two folders, usable for example as a patch for mercurial repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karasek/folder-diff.git"
+  },
+  "keywords": [
+    "diff",
+    "patch",
+    "mercurial"
+  ],
+  "author": "Luboš Karásek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karasek/folder-diff/issues"
+  },
+  "homepage": "https://github.com/karasek/folder-diff#readme",
+  "dependencies": {
+    "diff": "^2.0.0",
+    "path": "^0.12.7",
+    "promise": "^7.1.1",
+    "recursive-readdir": "^1.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^1.21.0"
+  }
+}
